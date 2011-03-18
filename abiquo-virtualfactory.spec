@@ -1,8 +1,8 @@
 %define abiquo_basedir /opt/abiquo
 
 Name:     abiquo-virtualfactory
-Version:  1.7
-Release:  8%{?dist}%{?buildstamp}
+Version:  1.7.5
+Release:  1%{?dist}%{?buildstamp}
 Summary:  Abiquo Virtual Factory
 Group:    Development/System 
 License:  Multiple 
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/tomcat/webapps/virtualfactory
 
 %changelog
+* Fri Mar 18 2011 Sergio Rubio <srubio@abiquo.com> - 1.7.5-1
+- version bump
+
 * Fri Feb 25 2011 Sergio Rubio <rubiojr@frameos.org> - 1.7-8
 - set buildarch to noarch
 
