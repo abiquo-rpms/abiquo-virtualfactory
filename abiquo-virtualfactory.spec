@@ -1,7 +1,7 @@
 %define abiquo_basedir /opt/abiquo
 
 Name:     abiquo-virtualfactory
-Version:  1.7.5
+Version:  1.7.6
 Release:  1%{?dist}%{?buildstamp}
 Summary:  Abiquo Virtual Factory
 Group:    Development/System 
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{abiquo_basedir}/tomcat/webapps/virtualfactory
 
 %changelog
+* Wed Apr 20 2011 Sergio Rubio <srubio@abiquo.com> - 1.7.6-1
+- bumped version
+
 * Fri Mar 18 2011 Sergio Rubio <srubio@abiquo.com> - 1.7.5-1
 - version bump
 
